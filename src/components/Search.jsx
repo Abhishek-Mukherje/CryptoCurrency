@@ -8,6 +8,7 @@ function Search({ search, setSearch }) {
       type="text" 
       placeholder="Search" 
       className="search-input"
+      //rydutyu
       value={search}
       onChange={e => setSearch(e.target.value)}
     />
